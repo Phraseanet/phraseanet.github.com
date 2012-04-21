@@ -1,0 +1,72 @@
+body {
+    background-color: #EBF2F6;
+    padding-bottom: 40px;
+}
+
+body, *, p{
+    font-family: Century Gothic,Arial,"MS Trebuchet",sans-serif;
+}
+
+.title {
+    padding:50px 0;
+    color:#808285;
+    font-size:14px;
+}
+
+.title p{
+    font-size:14px;
+}
+
+.title h5 {
+    font-size: 1.1em;
+    letter-spacing:11px;
+    font-weight:normal;
+}
+.title h1 {
+    font-size:5em;
+    line-height: 1em;
+    font-weight:bold;
+    color:#25B8EB;
+}
+
+.lib-box{
+    height:195px;
+    background-color:#25B8EB;
+}
+
+.lib-box h2,.lib-box .build-status{
+    font-size: 140%;
+    margin-left:10px;
+    color:#FFFFFF;
+}
+
+.lib-box .build-status {
+    margin-top:-5px;
+}
+
+.lib-box .main-icon {
+    height:102px;
+    width:160px;
+    margin:5px auto;
+}
+
+.lib-box .main-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.bottom > div:first-child a{
+    margin-left:10px;
+}
+div.license{
+    text-align:right;
+    font-size:80%;
+    color:#FFFFFF;
+}
+div.license span{
+    margin-right:10px;
+}
+
+.apps {
+    margin-bottom:2px;
+}
