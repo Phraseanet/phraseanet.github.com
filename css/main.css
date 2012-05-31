@@ -32,12 +32,15 @@ body, *, p{
 .lib-box{
     height:195px;
     background-color:#25B8EB;
+    position:relative;
 }
 
 .lib-box h2,.lib-box .build-status{
     font-size: 140%;
     margin-left:10px;
     color:#FFFFFF;
+    z-index:40;
+    position:relative;
 }
 
 .lib-box .build-status {
@@ -48,6 +51,7 @@ body, *, p{
     height:102px;
     width:160px;
     margin:5px auto;
+    text-align:center;
 }
 
 .lib-box .main-icon img {
@@ -69,4 +73,15 @@ div.license span{
 
 .apps {
     margin-bottom:2px;
+}
+
+.beta-flag {
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid #3AAA35;
+    height: 0;
+    top:0;
+    left:152px;
+    position:absolute;
+    width: 0;
+    z-index:20;
 }
